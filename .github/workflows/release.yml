@@ -26,22 +26,22 @@ jobs:
           config-file: release-please-config.json
 
       - name: Checkout Repository
-        if: ${{ steps.release.outputs.releases_created }}
+        if: ${{ steps.release.outputs.release_created }}
         uses: actions/checkout@v4
 
       - name: Set Up Ruby
-        if: ${{ steps.release.outputs.releases_created }}
+        if: ${{ steps.release.outputs.release_created }}
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
 
       - name: Install Dependencies
-        if: ${{ steps.release.outputs.releases_created }}
+        if: ${{ steps.release.outputs.release_created }}
         run: bundle install
 
       - name: Publish to GitHub Releases
-        if: ${{ steps.release.outputs.releases_created }}
+        if: ${{ steps.release.outputs.release_created }}
         run: |
           mkdir -p $HOME/.gem
           touch $HOME/.gem/credentials
@@ -54,7 +54,7 @@ jobs:
           OWNER: ${{ github.repository_owner }}
 
       - name: Publish to RubyGems
-        if: ${{ steps.release.outputs.releases_created }}
+        if: ${{ steps.release.outputs.release_created }}
         run: |
           mkdir -p $HOME/.gem
           touch $HOME/.gem/credentials
