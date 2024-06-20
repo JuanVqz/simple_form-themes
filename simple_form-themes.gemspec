@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = 'simple_form-themes'
   s.version     = SimpleForm::Themes::VERSION
   s.authors     = ['Juan Vasquez']
-  s.email       = ['sft@juanvasquez.dev']
+  s.email       = ['simple_form-themes@juanvasquez.dev']
   s.homepage    = 'https://github.com/juanvqz/simple_form-themes'
   s.summary     = 'The most modern themes for SimpleForm gem.'
   s.description = 'Enjoy SimpleForm with the most modern themes.'
