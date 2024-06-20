@@ -12,10 +12,6 @@ Gem::Specification.new do |s|
   s.description = 'Enjoy SimpleForm with the most modern themes.'
   s.license     = 'MIT'
 
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  s.metadata['allowed_push_host'] = 'https://rubygems.org'
-
   s.metadata['homepage_uri'] = s.homepage
   s.metadata['source_code_uri'] = 'https://github.com/juanvqz/simple_form-bulma'
   s.metadata['changelog_uri'] = 'https://github.com/juanvqz/simple_form-bulma/blob/main/CHANGELOG.md'
