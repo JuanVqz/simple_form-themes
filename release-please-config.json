@@ -4,7 +4,8 @@
       "release-type": "ruby",
       "version-file": "lib/simple_form/themes/version.rb",
       "extra-files": [
-        "CHANGELOG.md"
+        "CHANGELOG.md",
+        "Gemfile.lock"
       ]
     }
   }
