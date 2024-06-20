@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.metadata['homepage_uri'] = s.homepage
-  s.metadata['source_code_uri'] = 'https://github.com/juanvqz/simple_form-bulma'
-  s.metadata['changelog_uri'] = 'https://github.com/juanvqz/simple_form-bulma/blob/main/CHANGELOG.md'
+  s.metadata['source_code_uri'] = 'https://github.com/juanvqz/simple_form-themes'
+  s.metadata['changelog_uri'] = 'https://github.com/juanvqz/simple_form-themes/blob/main/CHANGELOG.md'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
