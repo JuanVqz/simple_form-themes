@@ -19,7 +19,19 @@ gem install simple_form-themes
 ```
 
 ## Usage
-How to use my plugin.
+
+> We are asuming you already have the CSS theme installed in your project.
+
+### Bulma CSS Theme
+
+To use the Bulma CSS Theme, run the following command:
+
+```bash
+rails generate simple_form:theme:bulma
+```
+
+it will create a file in `config/initializers/simple_form_bulma.rb` with the Bulma styles.
+just run the rails server and you will see the Bulma implemented in your forms.
 
 
 ## Contributing
