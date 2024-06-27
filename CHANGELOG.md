@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/JuanVqz/simple_form-themes/compare/v0.3.0...v0.3.1) (2024-06-27)
+
+
+### Bug Fixes
+
+* **gemfile:** Bump Gemfile.lock to v0.3.0 ([a5aedcd](https://github.com/JuanVqz/simple_form-themes/commit/a5aedcdf29ae4d9f9bc67f6b8cabb7789ebe40aa))
+
 ## [0.3.0](https://github.com/JuanVqz/simple_form-themes/compare/v0.2.2...v0.3.0) (2024-06-27)
 
 
