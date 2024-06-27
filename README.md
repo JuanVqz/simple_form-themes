@@ -22,6 +22,17 @@ gem install simple_form-themes
 
 > We are asuming you already have the CSS theme installed in your project.
 
+### Tailwind CSS Theme
+
+To use the Tailwind CSS Theme, run the following command:
+
+```bash
+rails generate simple_form:theme:tailwindcss install
+```
+
+it will create a file in `config/initializers/simple_form_tailwindcss.rb` with the Tailwind styles.
+just run the rails server and you will see the Bulma implemented in your forms.
+
 ### Bulma CSS Theme
 
 To use the Bulma CSS Theme, run the following command:
