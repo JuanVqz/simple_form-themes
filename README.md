@@ -38,7 +38,7 @@ just run the rails server and you will see the Bulma implemented in your forms.
 To use the Bulma CSS Theme, run the following command:
 
 ```bash
-rails generate simple_form:theme:bulma
+rails generate simple_form:theme:bulma install
 ```
 
 it will create a file in `config/initializers/simple_form_bulma.rb` with the Bulma styles.
